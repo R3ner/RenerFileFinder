@@ -17,7 +17,7 @@ A clean, modern, and lightweight desktop application built with Python to help y
    cd RenerFileFinder
 
 2. **Install dependencies: Make sure you have Python installed, then run:**
-```bash pip install -r requirements.txt
+```bash pip install -r requirements.txt```
 
 3. **Run the application:**
     ```bash 
@@ -36,11 +36,11 @@ A clean, modern, and lightweight desktop application built with Python to help y
 5. Select a result from the box and click Open Selected File Location to view it in your explorer.
 
 **📂 Project Structure**
-
+```
 RenerFileFinder/
 ├── src/
 │   ├── main.py           # Application entry point
 │   ├── search_engine.py  # Search logic & OS operations
 ├── requirements.txt      # List of dependencies
-└── README.md             # Project documentation
+└── README.md             # Project documentation ```
 
