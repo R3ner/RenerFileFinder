@@ -42,5 +42,5 @@ RenerFileFinder/
 │   ├── main.py           # Application entry point
 │   ├── search_engine.py  # Search logic & OS operations
 ├── requirements.txt      # List of dependencies
-└── README.md             # Project documentation ```
+└── README.md             # Project documentation
 
