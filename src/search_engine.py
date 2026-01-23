@@ -40,7 +40,7 @@ def search_files(directory, keyword, search_content=False, extensions=None):
                                 results.append(file_path)
                                 break 
                 except Exception:
-                    # Skip files that can't be read (permissions, locked, etc.)
+                    
                     continue
                     
     return results
