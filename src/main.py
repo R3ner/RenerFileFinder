@@ -121,16 +121,16 @@ class RenerFileFinder(ctk.CTk):
             self.results_box.insert("end", "No matches found.")
 
 if __name__ == "__main__":
-    # --- ESTO ES LO QUE SOLUCIONA EL ICONO DE LA TASKBAR ---
+   
     try:
-        # Importamos ctypes solo aquí para no ensuciar el resto del código
+        
         import ctypes
-        # Creamos un ID único para tu aplicación
+        
         myappid = u'rener.filefinder.v1' 
-        # Le decimos a Windows: "No soy Python, soy RenerFileFinder"
+        
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     except Exception as e:
-        print(f"No se pudo establecer el ID de la aplicación: {e}")
+        print(f"The application ID could not be established: {e}")
 
     app = RenerFileFinder()
     app.mainloop()
