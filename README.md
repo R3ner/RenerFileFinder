@@ -1,4 +1,4 @@
-# RenerFileFinder 🔍 (RFF)
+# RenerFileFinder (RFF)
 
 A clean, modern, and lightweight desktop application built with Python to help you find files and search for specific keywords inside text-based documents.
 
