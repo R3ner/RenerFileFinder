@@ -121,16 +121,11 @@ class RenerFileFinder(ctk.CTk):
             self.results_box.insert("end", "No matches found.")
 
 if __name__ == "__main__":
-   
     try:
-        
         import ctypes
-        
         myappid = u'rener.filefinder.v1' 
-        
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     except Exception as e:
         print(f"The application ID could not be established: {e}")
-
     app = RenerFileFinder()
     app.mainloop()
