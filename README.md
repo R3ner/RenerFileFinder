@@ -13,7 +13,7 @@ A clean, modern, and lightweight desktop application built with Python to help y
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/R3ner/RenerFileFinder.git](https://github.com/R3ner/RenerFileFinder.git)
+   git clone https://github.com/R3ner/RenerFileFinder.git
    cd RenerFileFinder
 
 2. **Install dependencies: Make sure you have Python installed, then run:**
