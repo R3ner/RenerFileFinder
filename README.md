@@ -1,4 +1,6 @@
 # RenerFileFinder (RFF)
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/fdcdb3d2-54c0-49f4-a84a-b426c0f55091" />
+
 
 A clean, modern, and lightweight desktop application built with Python to help you find files and search for specific keywords inside text-based documents.
 
@@ -15,11 +17,14 @@ A clean, modern, and lightweight desktop application built with Python to help y
    ```bash
    git clone https://github.com/R3ner/RenerFileFinder.git
    cd RenerFileFinder
+   
 
 2. **Install dependencies: Make sure you have Python installed, then run:**
-```bash pip install -r requirements.txt```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. **Run the application:**
+4. **Run the application:**
     ```bash 
     python src/main.py
 
