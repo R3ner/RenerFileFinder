@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.6+-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-2ea44f?logo=opensourceinitiative&logoColor=white)
+
 # RenerFileFinder (RFF)
 <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/fdcdb3d2-54c0-49f4-a84a-b426c0f55091" />
 
